@@ -145,12 +145,17 @@ footer {
 
 	.topnav-buttons {
 		font-size: x-large;
-		align-self: center;
+		/* align-self: center; */
+		position: relative;
+		right: 4em;
+
 	}
 
 	.searchbar {
 		display: flex;
 	    flex-direction: column;
+		position: relative;
+		right: 4em;
       
 	}
 
@@ -203,5 +208,22 @@ footer {
 	.map-pin {
 		display: flex;
 		flex-grow: 1;
+	}
+}
+
+@media (max-width: 550px) {
+	.logo {
+		display: none;
+		
+	}
+
+	.topnav-buttons {
+		position: relative;
+		right: 0em;
+	}
+
+	.searchbar {
+		position: relative;
+		left: 1em;
 	}
 }
