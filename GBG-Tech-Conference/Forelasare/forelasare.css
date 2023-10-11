@@ -70,56 +70,28 @@ main {
 }
 
 
-.rubrik-text {
-	display: flex;
-	color: rgb(245, 166, 21);
-	align-self: center;
-	margin: 0;
-	font-family: 'Pixelify Sans';
-	font-size:xxx-large;
+.speakers-title {
 	margin-top: 4em;
-}
-
-.welcome-text {
-	padding-left: 6em;
-	padding-right: 6em;
-	font-size: large;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	color: rgb(245, 166, 21);
-}
-
-.speakers {
 	display: flex;
-	color: rgb(245, 166, 21);
 	align-self: center;
-	padding-top: 2em;
-}
-
-.speakers-1, .speakers-2, .speakers-3, .speakers-4, .speakers-5, .speakers-6 {
-    display: flex;
-	justify-content: space-evenly;
-	margin-bottom: 8em;
-}
-
-.elon-musk, .mark-zuckerberg, .jeff-bezos, .tim-cook, .sundar-pichai, .sataya-nadella, .jack-dorsey, .bill-gates, .linus-torvalds, .marissa-mayer, .susan-wojcicki, .sheryl-sandberg {
-	width: 18em;
-	height: 25em;
-	border-radius: 2em;
-	border: 2px solid rgb(245, 166, 21);
-}
-
-.text-over-pic {
-	display: flex;
-	flex-direction: row;
-	/* align-self: center; */
-	justify-content: space-evenly;
+	font-size: 3em;
 	color: rgb(245, 166, 21);
-
 }
 
-.iphone-text-over-pic {
-	display: none;
+.about-days {
+	display: flex;
+	flex-wrap: wrap;
+	color: rgb(245, 166, 21);
+	padding-left: 4em;
+	padding-right: 4em;
+	margin: 0;
 }
+
+
+
+
+
+
 
 footer {
 	display: flex;
@@ -139,11 +111,11 @@ footer {
 	width: auto;
 }
 
-.contact-title, p {
+.contact-title {
 	display: flex;
 	justify-content: flex-start;
 	margin: 0.4em;
-	color: white;
+	color: rgb(245, 166, 21);
 }
 
 .contact-info {
@@ -151,6 +123,7 @@ footer {
 	flex-direction: column;
 	justify-content: flex-start;
 	margin: 0em;
+	color: rgb(245, 166, 21);
 }
 
 .follow-us {
@@ -158,7 +131,7 @@ footer {
 	flex-direction: row;
 	align-self: center;
 	margin-top: 1em;
-	color: white;
+	color: rgb(245, 166, 21);
 }
 
 .social-1, .social-2, .social-3, .social-4 {
@@ -202,12 +175,10 @@ footer {
       
 	}
 
-	.rubrik-text {
-		padding: 0.5em 0em;
-		margin: 0em;
-	}
 
-	
+
+
+
 
     footer {
 		display: flex;
@@ -254,57 +225,22 @@ footer {
 		display: flex;
 		flex-grow: 1;
 	}
-
-	
 }
 
 @media (max-width: 550px) {
 	.logo {
-		width: 8em;
-		height: 8em;
+		width: 6em;
+		height: 6em;
 		
 	}
 
 	.topnav-buttons {
 		position: relative;
-		right: 1em;
+		left: -3em;
 	}
 
 	.searchbar {
 		position: relative;
-		right: 0em;
-	}
-
-	.welcome-text {
-		padding: 1em;
-	}
-
-	
-}
-
-@media (max-width: 770px) {
-	.speakers-1, .speakers-2, .speakers-3, .speakers-4, .speakers-5, .speakers-6 {
-		display: flex;
-		flex-direction: column;
-		align-self: center;
-		margin: 0;
-	}
-
-	.elon-musk, .mark-zuckerberg, .jeff-bezos, .tim-cook, .sundar-pichai, .sataya-nadella, .jack-dorsey, .bill-gates, .linus-torvalds, .marissa-mayer, .susan-wojcicki, .sheryl-sandberg {
-		margin-bottom: 2em;
-	}
-
-	.text-over-pic {
-		display: none;
-	}
-	.iphone-text-over-pic {
-		display: flex;
-		align-self: center;
-		color: rgb(245, 166, 21);
-		border: 2px solid rgb(245, 166, 21);
-		border-bottom: none;
-		margin: 0em 1em;
-		padding: 0.7em;
-		border-radius: 1em 1em 0 0;
+		left: -3em;
 	}
 }
